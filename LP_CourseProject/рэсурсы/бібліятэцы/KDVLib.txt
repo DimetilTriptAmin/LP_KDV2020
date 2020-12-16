@@ -1,0 +1,8 @@
+public bool параўнаць(string a, string b)
+{
+    return String.Equals(a,b);
+}
+public int ступень(double a, double b)
+{
+    return (int)Math.Pow(a, b);
+}

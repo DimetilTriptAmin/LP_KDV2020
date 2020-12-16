@@ -1,0 +1,8 @@
+static public bool параўнаць(string a, string b)
+{
+    return String.Equals(a,b);
+}
+static public short ступень(double a, double b)
+{
+    return (short)Math.Pow(a, b);
+}

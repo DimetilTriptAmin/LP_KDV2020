@@ -1,0 +1,53 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Text;
+namespace KDV2020
+{
+class KDV2020Program{
+static public bool параҐнаць(string a, string b)
+{
+    return String.Equals(a,b);
+}
+static public short ступень(double a, double b)
+{
+    return (short)Math.Pow(a, b);
+}
+
+static public bool меньшступен≥(short s,short v,short p)
+{
+bool result;
+result=s<ступень(v,p);
+return result;
+}
+static public int Main()
+{
+short w1=(short)(-83);
+short w2=(short)(21);
+bool result=false;
+string b="ц≥кава€ ≥нфармацы€";
+string f="не ц≥кава€ ≥нфармацы€";
+w1=(short)(5/w2);
+result=параҐнаць(b,"ц≥кава€ ≥нфармацы€");
+w1=(short)(ступень(w1,2));
+Console.WriteLine(result);
+w1=(short)(2);
+if(меньшступен≥(w1,w2,3))
+{
+w1=(short)((ступень(w1,2)));
+Console.WriteLine(w1);
+}
+else
+{
+Console.WriteLine(false);
+}
+w1=(short)(0);
+while(w1<4)
+{
+w1=(short)(w1+1);
+Console.WriteLine(w1);
+}
+return 0;
+}
+}
+}

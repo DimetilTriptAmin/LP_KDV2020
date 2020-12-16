@@ -1,0 +1,4 @@
+C:\Универ\3сем\ЯП\КП\LP_CourseProject\KDVTextEdit\Debug\KDVTextEdit.KDVTextEdit.resources
+C:\Универ\3сем\ЯП\КП\LP_CourseProject\KDVTextEdit\Debug\KDVTextEdit.vcxproj.GenerateResource.cache
+C:\Универ\3сем\ЯП\КП\LP_CourseProject\KDVTextEdit\Debug\KDVTextEdit.Params.resources
+C:\Универ\3сем\ЯП\КП\LP_CourseProject\KDVTextEdit\Debug\KDVTextEdit.vcxprojAssemblyReference.cache

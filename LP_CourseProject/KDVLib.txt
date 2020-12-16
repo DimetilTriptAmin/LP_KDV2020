@@ -1,0 +1,6 @@
+function параўнаць(a, b){
+return a === b;
+}
+function ступень(a, b){
+return Math.pow(a,b);
+}
